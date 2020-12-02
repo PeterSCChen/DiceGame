@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COMP 2132 Final Project</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Dice Game</h1>
+    </div>
+    <div class ="wrapper">
+    
+        
+        <div class ="row">
+            <h3 id="win">Welcome to My Dice Game!</h3>
+            <div class="column">                
+                
+                    <p class ="player1" id="player1">Player Score: </p>
+                    <div id="playerScore" ></div>  
+                    <p class ="player1" id="player1">Player Total Score: </p>
+                    <div id="pTotalScore" ></div>   
+                    <img id = "dice1" src = "images/dice1.png" alt="">
+                
+                
+                    <img id = "dice2" src = "images/dice6.png" alt="">
+              
+            </div>
+
+            <div class="column">
+                <p class = "player2" id ="player2">Computer score:</p>
+                    <div id="computerScore"></div>  
+                    <p class ="player2" id="player2">Computer Total Score: </p>
+                    <div id="cTotalScore" ></div> 
+                    <img id = "dice3" src = "images/dice1.png" alt="">
+             
+                  
+                    <img id = "dice4" src = "images/dice6.png" alt="">
+             
+            </div>
+
+        </div>
+
+        <div class ="row">
+            <div class="column">
+               
+                    <button type="button" class="button" id="btn-start">
+                        Roll the Dice
+                    </button>
+             
+
+               
+                    <button type="button" class="button" id="btn-stop">
+                        Stop the Dice
+                    </button>
+              
+
+                
+              
+
+            </div>
+        </div>
+        <button type="button" class="button" id="reset">
+            reset
+        </button>
+
+        <div class ="row">
+            <div class="column">
+                <p id="rule">Rules:</p>
+                <p>
+                    <li>Player VS Computer</li>
+                    <li>Roll the Dice and Stop the Dice</li>
+                    <li>After 3 rounds, we compare the total score</li>
+                    <li>Whoever has more total score wins</li>
+                </p>
+            </div>    
+        </div>
+    </div>
+
+    <div class="footer">
+        <h1>Dice Game</h1>
+    </div>
+
+    <script src="scripts/comp2132-dicegame.js"></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/* Resets */
+
+/* Paul Irish - Box Sizing Reset 
+   - https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+*{
+    box-sizing:border-box;
+}
+a:hover{
+    color:yellow;
+}
+a:visited{
+    color:green;
+}
+html{
+    position:relative;
+    min-height:100%;
+}
+body {
+    font-family:Arial;
+    padding: auto;
+    margin: 0 auto;
+    background:#f1f1f1;
+    width:80%;
+    background-size: cover; 
+    background:url(https://thumbs.dreamstime.com/b/gambling-dices-seamless-pattern-white-background-vector-illustration-eps-124890375.jpg);
+}
+p{
+    word-wrap: break-word;
+    /*This is the new CSS3 property word break that line breaks within the word to protect words from going out of the content area, such as when it does not fit
+    This can be used in
+----
+    Firefox 3.5+
+    Google Chrome 1+
+    Internet Explorer 5.5+
+    Apple Safari 1+
+    Opera 10.5+
+---- 
+    and it uses basic vendor prefixes
+.*/
+    
+}
+.header {
+    padding: 30px;
+    text-align: center;
+    background-image: url(https://www.icmaonline.org/wp-content/uploads/2010/07/diagonal-fade-banner-gg11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color:white;
+    margin-bottom: 20px;
+}
+  
+.header h1 {
+    font-size: 50px;
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px black;
+    font-size: 4cm;
+    color: burlywood;
+    text-align: center;
+}
+
+p{
+    font-size: 1cm;
+    color: black;
+    font-family: "Lobster", cursive;
+    text-align: center;
+}
+  
+img{
+    width:200px;
+    height:200px;
+}
+
+
+li{
+    text-align:center;
+    font-size: .5cm;
+    font-family: "Lobster", cursive;
+}
+
+body{
+    height:100%;
+    background-color: white;
+    text-align: center;
+}
+.border{
+    text-align: center;
+}
+
+.column{
+    float:left;
+    height:100%;
+    width:50%;
+    background-color: white;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    height:100%;
+    float:center;
+}
+
+.wrapper{
+    padding:20px;
+    margin-top: 20px;
+    width: relative;
+	margin: 0 auto;
+	border: 1px solid black;
+    height: 1200px;
+    background-color: white;
+}
+
+.button { 
+    background: #4ecca3; 
+    font-family: "Indie Flower", cursive; 
+    border-radius: 7px; 
+    color: #ffff; 
+    font-size: 30px; 
+    padding: 16px 25px 16px 25px; 
+    text-decoration: none; 
+} 
+
+.button:hover { 
+    background: #232931; 
+    text-decoration: none; 
+} 
+
+/*table */
+
+
+
+.footer {
+    width:100%;
+    bottom:0px;
+    position:relative;
+    padding: 20px;
+    text-align: center;
+    background-color: #777B8E;
+    margin-top: 20px;
+}
